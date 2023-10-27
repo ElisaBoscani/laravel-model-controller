@@ -1,1 +1,36 @@
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+h1 {
+  color: #c850c0;
+}
+#header_css {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  box-shadow: 1px 6px 13px 2px;
+  a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .fa-2xl {
+    font-size: 3em;
+  }
+}
+
+#film_css {
+  .bg_film {
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    color: white;
+  }
+}

@@ -13,4 +13,9 @@ class PageController extends Controller
 
         return view('home', ['movies' => Movie::all()]);
     }
+    public function movies()
+    {
+
+        return view('movies', ['movies' => Movie::all()]);
+    }
 }
